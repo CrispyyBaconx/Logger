@@ -10,7 +10,7 @@ class Logger {
 
     private static instance: Logger;
 
-    private constructor(name?: string, dir?: string, cacheSize?: number) {
+    public constructor(name?: string, dir?: string, cacheSize?: number) {
         if (name) this.name = name;
         if (dir) this.dir = dir;
         if (!fs.existsSync(this.dir)) fs.mkdirSync(this.dir);
