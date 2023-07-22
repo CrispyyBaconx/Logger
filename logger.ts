@@ -1,6 +1,5 @@
 import fs from 'fs';
 import path from 'path';
-
 class Logger {
     private name: string = "main";
     private dir: string = "./logs";

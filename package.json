@@ -8,5 +8,8 @@
   },
   "keywords": [],
   "author": "CrispyyBaconx",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.4.3"
+  }
 }
